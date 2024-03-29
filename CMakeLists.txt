@@ -19,7 +19,8 @@ if (HAIKU)
 endif()
 
 set(EXTRA_LIBS)
-set(EXTRA_LDFLAGS)
+set(EXTRA_LDFLAGS "-pg")
+set(EXTRA_CFLAGS "-pg")
 
 set(CMAKE_DEPENDS)
 set(PKGCONFIG_DEPENDS)
